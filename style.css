@@ -2,10 +2,6 @@
     margin: 0;
   }
 
-  body {
-    font-family: 'Teko', sans-serif;
-  }
-
   .bg {
     background-image:url("../finalproject/img/bg-main@2x.jpg");
     height: 100vh;
@@ -20,6 +16,7 @@
     width: 100vw;
     background-attachment: fixed;
     background-position: center;
+    line-height: 1.5;
   }
   h1 {
     color: #ea2864;
@@ -33,13 +30,23 @@
    font-stretch: normal;
    line-height: 1;
    letter-spacing: normal;
+   font-family: 'Teko', sans-serif;
   }
 
   p {
     text-align: center;
-    font-size: 30px;
-    margin-left: 200px;
-    margin-right: 200px;
+    font-size: 16px;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-top: 30px;
+    font-family: 'Space Mono', monospace;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
   }
 
 .parallax1, .parallax2, .parallax3, .parallax4 {
@@ -57,9 +64,9 @@
 }
 
 .parallax3 {
-  background-image: url('http://a.espncdn.com/photo/2014/0527/mag_suarez03_aw_1600x900.jpg');
+  background-image: url("");
 }
 
 .parallax4 {
-  background-image: url('http://a.espncdn.com/photo/2014/0527/mag_suarez04_aw_1600x900.jpg');
+  background-image: url("");
 }
