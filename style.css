@@ -68,5 +68,33 @@
 }
 
 .parallax4 {
-  background-image: url("");
+  background-image: url("s");
+}
+
+.mission {
+    color: #ea2864;
+    background-color: #65427c;
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+   font-weight: normal;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 1;
+   letter-spacing: normal;
+   font-family: 'Teko', sans-serif;
+}
+
+#timer {
+  color: #ea2864;
+  background-color: #65427c;
+  margin: 0;
+  text-align: center;
+  font-size: 48px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1;
+ letter-spacing: normal;
+ font-family: 'Teko', sans-serif;
 }
