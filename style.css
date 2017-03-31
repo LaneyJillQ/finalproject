@@ -3,7 +3,24 @@
   }
 
   .bg {
-    background-image:url("../finalproject/img/bg-main@2x.jpg");
+    background-color: #ea2864;
+    background-image:url("../finalproject/img/stars.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+  }
+
+  .rocket {
+    background-image:url("../finalproject/img/ship-rocket.png");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+  }
+
+  .clouds {
+    background-image:url("../finalproject/img/front-clouds.png");
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -14,6 +31,7 @@
     background-color: #65427c;
     height: 100vh;
     width: 100vw;
+    padding-top: 72px;
     background-attachment: fixed;
     background-position: center;
     line-height: 1.5;
@@ -74,7 +92,7 @@
 .mission {
     color: #ea2864;
     background-color: #65427c;
-    margin: 0;
+    margin: auto;
     text-align: center;
     font-size: 24px;
    font-weight: normal;
@@ -90,11 +108,65 @@
   background-color: #65427c;
   margin: 0;
   text-align: center;
-  font-size: 48px;
+  font-size: 64px;
  font-weight: normal;
  font-style: normal;
  font-stretch: normal;
  line-height: 1;
  letter-spacing: normal;
  font-family: 'Teko', sans-serif;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 48px;
+}
+
+.life {
+  padding-left: 216px;
+  padding-right: 190px;
+}
+
+.civiization {
+  padding-left: 216px;
+  padding-right: 120px;
+}
+
+.explore {
+  padding-left: 216px;
+  padding-right: 189px;
+}
+
+.desc {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.fl {
+  padding-left: 200px;
+  padding-right: 160px;
+  color: #ea2864;
+  font-family: 'Teko', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.rc {
+  padding-left: 6  0px;
+  padding-right: 30px;
+  color: #ea2864;
+  font-family: 'Teko', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.em {
+  padding-left: 200px;
+  padding-right: 120px;
+  color: #ea2864;
+  font-family: 'Teko', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
 }
