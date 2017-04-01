@@ -3,7 +3,7 @@ var timerMinutes = 1
 var timerSeconds = 10
 var countdownTimeInSeconds = (timerHours * 3600) + (timerMinutes * 60) + timerSeconds
 
-var myCountdown = setInterval( function(){
+var myCountdown = setInterval(function(){
   countdownTimeInSeconds -= 1
   if ( countdownTimeInSeconds === 0) {
     console.log('time up')
@@ -21,6 +21,8 @@ var myCountdown = setInterval( function(){
 
 }, 1000)
 
+/*PARALLAX - TRIAL & ERROR*/
+
 window.addEventListener('scroll', function(event) {
   var depth, i, layer, layers, len, movement, topDistance, translate3d;
   topDistance = this.pageYOffset;
@@ -36,4 +38,18 @@ window.addEventListener('scroll', function(event) {
     layer.style['-o-transform'] = translate3d;
     layer.style.transform = translate3d;
   }
+});
+
+/*JQUERY from relaxr blog */
+
+$(document).ready(function(){
+    $('.fl').click(function(){
+        $(this).next().slideToggle('slow', function() {
+        if ($(this).is(':visible')) {
+             $('.fl').text('FOSTER LIFE');
+        } else {
+             $('.fl').text('FOSTER LIFE');
+        }
+    	});
+    });
 });
