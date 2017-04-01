@@ -84,8 +84,8 @@
 .elon {
   text-align: center;
   font-size: 50px;
-  margin-left: 280px;
-  margin-right: 280px;
+  margin-left: 250px;
+  margin-right: 250px;
   padding-top: 60px;
   font-family: 'Space Mono', monospace;
   line-height: 1.5;
@@ -261,4 +261,11 @@ input[type=text] {
   font-style: normal;
   font-stretch: normal;
   text-align: center;
+  width: 350px;
+  margin: 0 auto;
+}
+
+form {
+  width: 350px;
+  margin: 0 auto;
 }
